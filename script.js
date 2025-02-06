@@ -71,7 +71,7 @@ function handleResponse(response) {
         downloadButton.onclick = () => {
             // Crear un enlace temporal para descargar el archivo
             const link = document.createElement('a');
-            link.href = 'carta.pdf'; // Ruta al archivo local
+            link.href = 'carta2.pdf'; // Ruta al archivo local
             link.download = 'carta.pdf'; // Nombre del archivo descargado
             document.body.appendChild(link);
             link.click(); // Simular clic en el enlace
