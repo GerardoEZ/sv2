@@ -4,15 +4,15 @@ const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 
 const messages = [
-    { text: "Hola amor ❤️", sender: "sent" },
-    { text: "Hola cariño 😊", sender: "received" },
+    { text: "Hola niña...", sender: "sent" },
+    { text: "Hola", sender: "received" },
     { text: "¿Sabes qué día es hoy?", sender: "sent" },
     { text: "¿Hoy? 🤔", sender: "received" },
     { text: "Sí, hoy es un día muy especial...", sender: "sent" },
     { text: "¿Por qué? 😮", sender: "received" },
     { text: "Porque hoy quiero preguntarte algo muy importante...", sender: "sent" },
     { text: "¿Qué es? 😳", sender: "received" },
-    { text: "¿Quieres ser mi San Valentín? 💌", sender: "sent" }
+    { text: "¿Quieres estar conmigo?", sender: "sent" }
 ];
 
 let index = 0;
